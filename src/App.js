@@ -4,7 +4,6 @@ import Wrapper from "./components/wrapper.jsx";
 import Screen from "./components/screen.jsx";
 import ButtonBox from "./components/button-box.jsx";
 import Button from "./components/button.jsx";
-import ThemeToggle from "./components/theme-toggle.jsx";
 import Container from "./components/container.jsx";
 
 
@@ -117,7 +116,6 @@ const App = () => {
 
   return (
     <Container>
-      <ThemeToggle/>
       <Wrapper>
         <Screen value={calc.number ? calc.number : calc.result} />
         <ButtonBox>
